@@ -1,0 +1,17 @@
+{% extends "base.jinja" %}
+{% block content %}
+<div class="w-full max-w-xl bg-white rounded-xl shadow-lg p-8 border-2 border-gray-900">
+    <h1 class="text-3xl font-bold mb-4 text-center">Git to Docs</h1>
+    <p class="text-gray-600 text-center mb-6">Turn any GitHub repository into a simple documentation link.</p>
+    {% if error %}
+        <div class="mb-4 p-3 bg-red-100 border border-red-300 rounded text-red-700 text-center">{{ error }}</div>
+    {% endif %}
+    <form method="post" action="/generate" class="flex flex-col gap-4">
+        <input type="text" name="input_text" placeholder="https://github.com/username/repo" required class="border-2 border-gray-900 rounded px-4 py-3 text-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+        <button type="submit" class="bg-yellow-400 hover:bg-yellow-300 border-2 border-gray-900 text-gray-900 font-semibold rounded px-4 py-3 transition-all">Create Docs</button>
+    </form>
+    <div class="mt-6 text-center text-gray-500 text-sm">
+        Example: <span class="underline">https://github.com/filiksyos/gittodoc</span>
+    </div>
+</div>
+{% endblock %} 

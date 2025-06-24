@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+jinja2
+gitpython
+sphinx
+sphinx-autodoc-typehints
+markdown 
