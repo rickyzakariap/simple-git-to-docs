@@ -1,6 +1,6 @@
 # 🚀 Git to Docs (Local Edition)
 
-Turn any GitHub repository into beautiful, browsable documentation—served right from your own computer! No cloud, no S3, just fast local docs for any repo.
+Turn any GitHub repository into beautiful, browsable documentation served right from your own computer! No cloud, no S3, just fast local docs for any repo.
 
 ---
 
@@ -18,7 +18,7 @@ Turn any GitHub repository into beautiful, browsable documentation—served righ
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/git-to-doc.git
+   git clone https://github.com/rickyzakariap/git-to-doc.git
    cd git-to-doc
    ```
 2. **Install dependencies:**
