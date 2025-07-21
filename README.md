@@ -58,6 +58,8 @@ Turn any GitHub repository into beautiful, browsable documentation served right 
 
 ---
 
+[![wakatime](https://wakatime.com/badge/github/rickyzakariap/simple-git-to-docs.svg)](https://wakatime.com/badge/github/rickyzakariap/simple-git-to-docs)
+
 ## 📄 License
 
 MIT 
